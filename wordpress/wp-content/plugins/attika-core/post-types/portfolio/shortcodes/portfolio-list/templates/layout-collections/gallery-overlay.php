@@ -3,9 +3,9 @@
 <div class="mkdf-pli-text-holder">
 	<div class="mkdf-pli-text-wrapper">
 		<div class="mkdf-pli-text">
-			<a itemprop="url" href="<?php echo esc_url($this_object->getItemLink()) ?>">
+			<div itemprop="url">
 				<?php echo attika_core_get_cpt_shortcode_module_template_part('portfolio', 'portfolio-list', 'parts/title', $item_style, $params); ?>
-			</a>
+			</div>
 
 			<?php echo attika_core_get_cpt_shortcode_module_template_part('portfolio', 'portfolio-list', 'parts/category', $item_style, $params); ?>
 

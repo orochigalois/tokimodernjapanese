@@ -79,7 +79,7 @@ class MenuPopup implements ShortcodeInterface {
             $opener_class = 'mkdf-menu-popup-light-opener';
         }
 
-        $html = ' <a class="mkdf-menu-popup-opener '. esc_attr($opener_class).'" href="javascript:void(0)">';
+        $html = ' <a class="mkdf-menu-popup-opener '. esc_attr($opener_class).'" href="/?page_id=1231">';
 
 
         $html .= '<svg class="mkdf-menu-popup-opener-svg" version="1.1"

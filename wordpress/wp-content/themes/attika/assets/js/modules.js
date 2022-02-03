@@ -6425,6 +6425,7 @@
             popupClose = $( '.mkdf-reservation-popup-close' );
 
         popupOpener.on('click', function (e) {
+			return;
             e.preventDefault();
 
             if (mkdf.body.hasClass('mkdf-reservation-popup-opened')) {

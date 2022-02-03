@@ -25,6 +25,7 @@
             menuPopupHolder = $('.mkdf-menu-popup-holder');
 
         popupOpener.click( function(e) {
+            return;
             e.preventDefault();
 
             if (mkdf.body.hasClass('mkdf-menu-popup-opened')) {

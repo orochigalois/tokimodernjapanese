@@ -13,3 +13,25 @@ License URI: licence/GPL.txt
 CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
 
 */
+
+.mkdf-parallax-row-holder{
+    background-size: cover !important;
+}
+.mkdf-row-parallax-element{
+    max-width: 300px !important;
+}
+
+@media only screen and (max-width: 900px) { 
+    .mkdf-row-parallax-left{
+        display: none !important;
+    }
+    .mkdf-row-parallax-right{
+        display: none !important;
+    }
+    .mkdf-mobile-header .mkdf-mobile-logo-wrapper img{
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
