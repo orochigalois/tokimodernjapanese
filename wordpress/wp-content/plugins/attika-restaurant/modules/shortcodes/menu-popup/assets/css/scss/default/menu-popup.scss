@@ -1,0 +1,196 @@
+/* ==========================================================================
+   #Popup styles
+   ========================================================================== */
+
+.mkdf-menu-popup-holder {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1150;
+    visibility: hidden;
+    @include mkdfTransition(opacity .2s ease-out .1s, visibility .0s .4s);
+
+    .mkdf-popup-table {
+        display: table;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 9;
+    }
+
+    .mkdf-popup-table-cell {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .mkdf-popup-inner {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        width: 80%;
+        padding: 28px 4% 60px;
+        background-color: #fff;
+        opacity: 0;
+        box-sizing: border-box;
+        -webkit-transition: -webkit-transform .2s ease, opacity .3s ease;
+        -moz-transition: -moz-transform .2s ease, opacity .3s ease;
+        transition:transform .2s ease, opacity .3s ease;
+        @include mkdfTransform(scale(.8) translateZ(0));
+
+        .mkdf-popup-image,
+        .mkdf-popup-content {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            width: 50%;
+            float: left;
+        }
+
+        .mkdf-popup-image {
+
+            img {
+                display: block;
+            }
+        }
+
+        .mkdf-menu-popup-title {
+            text-align: left;
+            margin: 0 0 40px;
+        }
+
+        .mkdf-menu-popup-close {
+            position: absolute;
+            top: 30px;
+            right: 35px;
+            font-size: 18px;
+        }
+    }
+
+    &.mkdf-menu-popup-three-columns {
+        .mkdf-restaurant-menu-list {
+            width: 33.33%;
+        }
+    }
+
+    &.mkdf-menu-popup-two-columns {
+        .mkdf-restaurant-menu-list {
+            width: 50%;
+        }
+    }
+
+    &.mkdf-menu-popup-one-columns {
+
+        .mkdf-popup-inner {
+            width: 34%;
+        }
+
+        .mkdf-restaurant-menu-list {
+            width: 100%;
+        }
+    }
+}
+
+.mkdf-menu-popup-opener {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    background-color: #faf5f0;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 30;
+    @include mkdfTransition(1.5s 1s cubic-bezier(0.17, 0.57, 0.71, 0.46));
+    clip-path: circle(0);
+    -webkit-clip-path: circle(0);
+
+    &.mkdf-item-appear {
+        backface-visibility: hidden;
+        clip-path: circle(100%);
+        -webkit-clip-path: circle(100%);
+    }
+
+    .mkdf-menu-popup-opener-svg {
+
+        .mkdf-svg-smoke-1 {
+            @include mkdfAnimation(moving-smoke 2s infinite);
+        }
+
+        .mkdf-svg-smoke-2 {
+            @include mkdfAnimation(moving-smoke 2s .1s infinite);
+        }
+        
+        @keyframes moving-smoke {
+            0%, 100% {
+                @include mkdfTransform(translateY(2px));
+            }
+            50% {
+                @include mkdfTransform(translateY(-2px));
+            }
+        }
+    }
+
+    svg {
+        display: flex;
+        align-items: center;
+        height: 80%;
+        margin: 0 auto;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        right: -19px;
+        top: 50%;
+        width: 35px;
+        height: 1px;
+        background-color: $first-main-color;
+    }
+
+    &.mkdf-menu-popup-light-opener {
+        background-color: #fff;
+
+        &:after {
+            content: '';
+            position: absolute;
+            right: 50%;
+            top: calc(100% - 16px);
+            width: 1px;
+            height: 116px;
+            background-color: $first-main-color;
+        }
+    }
+}
+
+/* Popup open/close style */
+
+.mkdf-menu-popup-opened {
+
+    .mkdf-menu-popup-holder {
+        opacity: 1;
+        visibility: visible;
+        @include mkdfTransition(opacity .3s ease);
+
+        .mkdf-popup-inner {
+            opacity: 1;
+            @include mkdfTransform(scale(1) translateZ(0));
+            -webkit-transition: -webkit-transform 1s cubic-bezier(0.26, 0.63, 0, 0.96);
+            -moz-transition: -moz-transform 1s cubic-bezier(0.26, 0.63, 0, 0.96);
+            transition:transform 1s cubic-bezier(0.26, 0.63, 0, 0.96);
+        }
+    }
+
+    .mkdf-restaurant-menu-list {
+        float: left;
+    }
+}
+
+/* ==========================================================================
+   #Popup styles - end
+   ========================================================================== */

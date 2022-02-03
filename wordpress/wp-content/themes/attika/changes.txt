@@ -1,0 +1,65 @@
+1.5
+- Added WooCommerce 5.4.1 compatibility
+- Updated Revolution Slider to 6.4.11
+- Updated Attika Core to 1.3
+- Updated Attika Restaurant to 1.0.2
+- Updated Attika Instagram Feed to 2.0.1
+- Updated Attika Twitter Feed to 1.0.2
+- Fixed countdown calculation
+- Fixed revolution slider preview functionality
+- Improved theme registration to block Shortcodes and CPT loading if the theme is not registered
+- Improved PHP8 compatibility
+- Removed Google Plus Social Share compatibility
+
+1.4.1
+- Added images licensed for digital use on websites made with Attika theme
+- Added WordPress 5.7 compatibility
+- Added WooCommerce 5.1.0 compatibility
+- Updated Revolution Slider to 6.4.6
+- Updated WPBakery Page Builder to 6.6.0
+
+1.4
+- Added WordPress 5.5 compatibility
+- Added WooCommerce 4.6.0 compatibility
+- Updated Attika Core to 1.2.1
+- Updated Attika Restaurant to 1.0.1
+- Updated Attika Instagram Feed to 2.0
+- Updated Attika Twitter Feed to 1.0.1
+- Updated WPBakery Page Builder to 6.4.1
+- Updated Revolution Slider to 6.2.23
+- Removed unused file instagram-redirect.php from Attika Instagram Feed plugin
+- Removed unused file twitter-redirect.php from Attika Twitter Feed plugin
+
+1.3
+- Added Attika Dashboard
+- Added WooCommerce 3.8.1 compatibility
+- Updated WPBakery Page Builder to 6.1
+- Updated Revolution Slider to 6.1.5
+- Updated Attika Core on 1.2
+- Updated Attika child theme to version 1.0.1
+- Fixed Featured products in Product List - Simple issue
+- Fixed Title - Parallax with zoom out issue
+- Fixed social share - Twitter issue
+- Fixed OG description rendering for pages
+- Improved page transitions
+- Improved Import
+- Improved Welcome Page
+- Changed Attika Options Position
+
+1.2
+- Added WooCommerce 3.6.5 compatibility
+- Updated WPBakery Page Builder to 6.0.3
+- Fixed Ligthbox navigation
+
+1.1.1
+- Added WooCommerce 3.6.1 compatibility
+- Improved theme files
+- Updated Attika Core plugin to 1.1.1
+
+1.1
+- Added WooCommerce 3.5.5 compatibility
+- Improved framework files
+- Updated Attika Core plugin to 1.1
+- Updated Visual Composer to 5.7
+- Updated Revolution Slider to 5.4.8.3
+- Updated pot file

@@ -1,0 +1,188 @@
+/* ==========================================================================
+   Testimonials standard style - begin
+   ========================================================================== */
+
+.mkdf-testimonials-holder {
+    
+    &.mkdf-testimonials-standard {
+        text-align: center;
+
+        .owl-stage-outer:after {
+            background-color: #fef8f7;
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 80%;
+            z-index: -12;
+            top: 0;
+            left: 0;
+        }
+
+        .mkdf-testimonials-icon {
+            margin-bottom: 75px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: -50px;
+            z-index: 123;
+            width: 100px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-color: #fff;
+            border-radius: 50%;
+        }
+
+        .mkdf-testimonial-image {
+            @include mkdfRelativeHolderLayout();
+            margin: 25px 0 0;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        .owl-item.active {
+
+            .mkdf-testimonial-text {
+                opacity: 1;
+            }
+
+            .mkdf-testimonial-author {
+
+                &:before {
+                    height: 43px;
+                }
+
+                .mkdf-testimonials-author-name, .mkdf-testimonials-author-job {
+                    opacity: 1;
+                    @include mkdfTransform(translateY(0));
+                }
+            }
+        }
+
+        .mkdf-testimonials-icon {
+            margin-bottom: 70px;
+        }
+
+        .mkdf-testimonial-title {
+            margin: 0;
+        }
+
+        .mkdf-testimonial-author {
+            margin: 128px 0 0;
+            position: relative;
+    
+            &:before {
+                content: "";
+                height: 0;
+                position: absolute;
+                background: $first-main-color;
+                left: 50%;
+                top: -45px;
+                width: 1px;
+                @include mkdfTransition(.5s .4s);
+
+                @include ipad-landscape {
+                    top: -63px;
+                }
+            }
+
+            .mkdf-testimonials-author-name, .mkdf-testimonials-author-job {
+                opacity: 0;
+                @include mkdfTransform(translateY(10px));
+            }
+
+            .mkdf-testimonials-author-name {
+                font-family: $default-heading-font;
+                font-weight: 400;
+                text-transform: uppercase;
+                display: block;
+                font-size: 12px;
+                letter-spacing: 0.3em;
+                font-style: italic;
+                @include mkdfTransition(.5s .5s);
+            }
+
+            .mkdf-testimonials-author-job {
+                display: block;
+                text-transform: initial;
+                margin-top: -5px;
+                @include mkdfP();
+                @include mkdfTransition(.5s .6s);
+            }
+        }
+
+        .mkdf-testimonial-text {
+            margin: 100px auto 0;
+            color: $default-text-color;
+            width: 70%;
+            opacity: 0;
+            @include mkdfTransition(.2s .2s);
+        }
+
+        /* Light/Dark styles */
+        &.mkdf-testimonials-light {
+
+            .owl-stage-outer:after {
+                background-color: transparent;
+            }
+            
+            .mkdf-testimonial-title,
+            .mkdf-testimonial-text,
+            .mkdf-testimonial-author {
+                color: #fff;
+            }
+
+            .owl-dots {
+                
+                .owl-dot {
+                    
+                    span {
+                        border: 1px solid $default-border-color;
+                    }
+                    
+                    &:hover,
+                    &.active {
+
+                        span {
+                            background-color: #fff;
+                            border-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .owl-nav {
+
+            .owl-prev, .owl-next {
+                top: 38%;
+            }
+
+            .owl-prev {
+                left: -116px;
+            }
+
+            .owl-next {
+                right: -116px;
+            }
+
+            @include laptop-landscape-mac {
+                .owl-prev {
+                    left: -100px;
+                }
+    
+                .owl-next {
+                    right: -100px;
+                }
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Testimonials standard style - end
+   ========================================================================== */

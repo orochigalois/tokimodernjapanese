@@ -1,0 +1,4 @@
+2022-01-04T02:02:58+00:00 CRITICAL Out of memory (allocated 52428800) (tried to allocate 32768 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/attika-core/post-types/portfolio/shortcodes/portfolio-list/portfolio-list.php on line 479
+
+2022-01-04T18:57:03+00:00 CRITICAL Out of memory (allocated 58720256) (tried to allocate 32768 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/woocommerce/includes/admin/wc-admin-functions.php on line 387
+

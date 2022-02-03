@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Title responsive styles - begin
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder.mkdf-has-bg-image {
+    height: auto !important;
+    background-image: none !important;
+  }
+  .mkdf-title-holder.mkdf-has-bg-image .mkdf-title-image {
+    display: block;
+  }
+  .mkdf-title-holder.mkdf-has-bg-image .mkdf-title-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 100% !important;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .mkdf-title-holder.mkdf-title-va-header-bottom {
+    height: auto !important;
+  }
+  .mkdf-title-holder.mkdf-title-va-header-bottom .mkdf-title-wrapper {
+    padding-top: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Title responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+  Attika Title type responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .mkdf-title-holder.mkdf-attika-type .mkdf-page-title {
+    -webkit-transform: translateX(-20%);
+    -ms-transform: translateX(-20%);
+    transform: translateX(-20%);
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .mkdf-title-holder.mkdf-attika-type .mkdf-page-title {
+    -webkit-transform: translateX(-10%);
+    -ms-transform: translateX(-10%);
+    transform: translateX(-10%);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-title-holder.mkdf-attika-type .mkdf-page-title {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-title-holder.mkdf-attika-type .mkdf-page-title {
+    width: 100%;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+/* ==========================================================================
+   Attika With Breadcrumbs Title type responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title responsive styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map-responsive.css.map */

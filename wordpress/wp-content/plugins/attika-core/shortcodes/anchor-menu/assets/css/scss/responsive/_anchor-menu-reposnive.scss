@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1440px) {
+	.mkdf-anchor-menu-outer {
+
+		.mkdf-anchor-menu-item{
+
+			a {
+				padding: 17px 10px 17px 15px;
+			}
+		}
+
+		.mkdf-anchor{
+			.mkdf-anchor-menu-item-label {
+				font-size: 13px;
+			}
+		}
+	}
+}
+
+@include laptop-landscape-medium {
+	.mkdf-anchor-menu-outer {
+	}
+}
+
+@media only screen and (max-width: $ipad-landscape) {
+	.mkdf-anchor-menu-outer {
+		display: none;
+	}
+}

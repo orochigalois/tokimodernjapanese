@@ -1,0 +1,2 @@
+2022-01-20T04:48:37+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 32768 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/reviews-frontend.asset.php on line 1
+

@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Portfolio Slider shortcode responsive style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-slider-holder {
+
+	.mkdf-portfolio-list-holder {
+
+		@include ipad-landscape {
+			
+			&.mkdf-pl-gallery-info-bottom {
+
+				&.mkdf-enable-center {
+
+					.owl-item.active {
+						
+						article {
+							.mkdf-pli-text-holder {
+								opacity: 0.9;
+								@include mkdfTransform(translateY(0));
+							}
+		
+							.mkdf-pli-text-wrapper {
+		
+								&:before {
+									height: 56px;
+								}
+		
+								.mkdf-pli-title, .mkdf-pli-category-holder {
+									opacity: 1;
+									@include mkdfTransform(translateY(0));
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.mkdf-pl-inner {
+
+		@include phone-landscape {
+			margin: 0!important;
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Slider shortcode responsive style - end
+   ========================================================================== */

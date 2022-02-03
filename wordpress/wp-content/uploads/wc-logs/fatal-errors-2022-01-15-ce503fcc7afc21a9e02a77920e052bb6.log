@@ -1,0 +1,4 @@
+2022-01-15T06:49:55+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 40960 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/themes/attika/framework/modules/header/types/header-minimal/admin/options-map/full-screen-menu-map.php on line 653
+
+2022-01-15T06:49:55+00:00 CRITICAL Out of memory (allocated 50331648) (tried to allocate 32768 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/themes/attika/framework/modules/header/types/sticky-header/admin/options-map/sticky-header-map.php on line 223
+

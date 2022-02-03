@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Portfolio Item Layout - Slider Overlay style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-list-holder {
+	
+	&.mkdf-pl-slider-overlay {
+		
+		article {
+			
+			&:hover {
+				
+				.mkdf-pli-text-holder {
+					opacity: 1;
+				}
+			}
+			
+			.mkdf-pl-item-inner {
+				overflow: hidden;
+			}
+			
+			.mkdf-pli-text {
+				display: none;
+			}
+		}
+		
+		.mkdf-pli-text-holder {
+			@include mkdfAbsoluteHolderLayout();
+			padding: 20px;
+			background-color: rgba(#fff, 0.2);
+			opacity: 0;
+			text-align: center;
+			box-sizing: border-box;
+			z-index: 20;
+			@include mkdfTransition(opacity .2s ease-in-out);
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Slider Overlay style - end
+   ========================================================================== */

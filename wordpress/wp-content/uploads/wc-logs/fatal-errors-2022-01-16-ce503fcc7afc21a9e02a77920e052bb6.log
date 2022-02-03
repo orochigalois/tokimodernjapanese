@@ -1,0 +1,2 @@
+2022-01-16T02:24:52+00:00 CRITICAL Out of memory (allocated 46137344) (tried to allocate 131072 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-assets.php on line 307
+

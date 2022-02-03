@@ -1,0 +1,43 @@
+.mkdf-cbci{
+    @include laptop-landscape-large {
+        .mkdf-cbci-content-left {
+            padding-right: 30% !important;
+            padding-left: 10% !important;
+        }
+
+        .mkdf-cbci-content-right {
+            padding-left: 30% !important;
+            padding-right: 10% !important;
+        }
+    }
+
+    .mkdf-cbci-content-left,
+    .mkdf-cbci-content-right {
+        @include ipad-landscape {
+            width: 100%;
+            position: relative;
+            padding: 50px 20% !important;
+            
+            .mkdf-cbci-text-left,
+            .mkdf-cbci-text-right{
+                text-align: center;
+            }
+        }
+        @include phone-landscape {
+            padding-left: 20px !important;
+            padding-right: 20px !important;
+        }
+    }
+
+
+    @include phone-landscape {
+
+        .mkdf-cbci-content-circle-inner {
+            display: none;
+        }
+
+        .mkdf-cbci-content-circle-content {
+           padding: 30px;
+        }
+    }
+}

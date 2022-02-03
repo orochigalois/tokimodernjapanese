@@ -1,0 +1,24 @@
+.mkdf-testimonials-holder {
+
+    @include phone-landscape {
+
+        .owl-stage-outer:after {
+            height: 88% !important;
+        }
+
+        .owl-nav {
+            display: none;
+        }
+        
+        .mkdf-testimonials {
+            padding: 0;
+        }
+
+        .mkdf-testimonial-author {
+
+            .mkdf-testimonials-author-name {
+                margin-top: -64px;
+            }
+        }
+    }
+}

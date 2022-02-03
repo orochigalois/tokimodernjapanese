@@ -1,0 +1,2 @@
+2022-01-26T07:36:22+00:00 CRITICAL Out of memory (allocated 37748736) (tried to allocate 32768 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 372
+

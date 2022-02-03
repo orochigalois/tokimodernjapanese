@@ -1,0 +1,203 @@
+.mkdf-rf-holder {
+	input[type=text],
+	select {
+		border: none;
+		outline: none;
+		background-color: transparent;
+	}
+
+	.mkdf-rf-col-holder {
+		float: left;
+		width: 21%;
+
+        &:first-child {
+            width: 20%;
+        }
+
+        &.mkdf-rf-btn-holder {
+            width: auto;
+        }
+	}
+
+    .mkdf-rf-title {
+        margin: 0;
+        line-height: 20px;
+    }
+
+	.mkdf-rf-field-holder {
+		width: 87%;
+		background-color: #eff5f8;
+		position: relative;
+        box-sizing: border-box;
+
+		select,
+		input[type=text] {
+			display: block;
+			width: 100%;
+			color: #111;
+			font-size: 13px;
+			line-height: 20px;
+            text-align: center;
+			font-weight: 300;
+            font-family: $default-text-font;
+			letter-spacing: 0.05em;
+			margin: 0;
+            border-radius: 0;
+            box-sizing: border-box;
+
+		}
+
+		input[type=text] {
+			padding-top: 0;
+			padding-bottom: 0;
+
+			&::-webkit-input-placeholder {
+				color: #111;
+			}
+
+			&:-moz-placeholder {
+				color: #111;
+				opacity: 1;
+			}
+
+			&::-moz-placeholder {
+				color: #111;
+				opacity: 1;
+			}
+		}
+
+		select {
+			padding: 0 5px;
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			text-indent: 1px;
+			text-overflow: '';
+			cursor: pointer;
+            text-align: center;
+            text-align-last: center;
+            /* webkit*/
+
+			&::-ms-expand {
+				display: none;
+			}
+		}
+
+		.mkdf-rf-icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+			width: 41px;
+            font-size: 16px;
+			line-height: 20px;
+			height: 100%;
+			text-align: center;
+
+			span {
+				color: #111;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	.mkdf-btn {
+		display: block;
+		width: 100%;
+        line-height: 18px;
+		padding: 0 16px;
+
+		.mkdf-btn-text {
+			margin-right: -0.5em;
+		}
+	}
+
+	.mkdf-rf-label {
+		width: 25.4%;
+		text-align: center;
+		display: inline-block;
+		line-height: 44px;
+		font-size: 18px;
+		text-transform: lowercase;
+		color: #111;
+	}
+
+    &.mkdf-rf-holder-light {
+        .mkdf-rf-field-holder {
+            background-color: #fff;
+        }
+    }
+
+	.mkdf-rf-copyright {
+		font-size: 13px;
+	}
+}
+
+/* ==========================================================================
+   #jQuery Datepicker styles - start
+   ========================================================================== */
+#ui-datepicker-div {
+    z-index: 1200 !important;
+    background-color: #fff;
+    min-width: 220px;
+    box-shadow: 0 0 2px #ddd;
+    font-size: 12px;
+
+    table tr {
+        border: none;
+    }
+
+    table {
+        padding: 0 4px 4px;
+    }
+
+    table td {
+        padding: 3px;
+        line-height: 1.5em;
+    }
+
+    .ui-datepicker-header {
+        padding: 5px 16px;
+        position: relative;
+    }
+
+    .ui-datepicker-next,
+    .ui-datepicker-prev {
+        position: absolute;
+        font-size: 14px;
+    }
+
+    .ui-datepicker-prev {
+        left: 12px;
+    }
+
+    .ui-datepicker-next {
+        right: 12px;
+    }
+
+    .ui-datepicker-title {
+        text-align: center;
+	}
+	
+	.ui-timepicker-div dl dt, .ui-datepicker-calendar th span {
+		font-weight: 300;
+		font-size: 13px;
+	}
+
+    .ui-datepicker-today {
+        color: #111;
+        background-color: $first-main-color;
+
+        a {
+            color: #111;
+        }
+    }
+
+    .ui-datepicker-current-day:not(.ui-datepicker-today){
+        a{
+            color: $first-main-color;
+        }
+    }
+}
+
+/* ==========================================================================
+   #jQuery Datepicker styles - end
+   ========================================================================== */

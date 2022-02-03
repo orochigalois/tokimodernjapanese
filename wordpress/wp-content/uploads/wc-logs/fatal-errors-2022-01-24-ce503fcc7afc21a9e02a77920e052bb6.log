@@ -1,0 +1,16 @@
+2022-01-24T04:24:16+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 1785856 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-admin/includes/class-wp-filesystem-direct.php on line 39
+
+2022-01-24T04:44:19+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 1785856 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-admin/includes/class-wp-filesystem-direct.php on line 39
+
+2022-01-24T05:23:54+00:00 CRITICAL Out of memory (allocated 4194304) (tried to allocate 32768 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/js_composer/include/classes/core/class-vc-base.php on line 737
+
+2022-01-24T05:30:34+00:00 CRITICAL Out of memory (allocated 52428800) (tried to allocate 1785856 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-admin/includes/class-wp-filesystem-direct.php on line 39
+
+2022-01-24T05:30:34+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 1785856 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-admin/includes/class-wp-filesystem-direct.php on line 39
+
+2022-01-24T05:30:34+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 1785856 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-admin/includes/class-wp-filesystem-direct.php on line 39
+
+2022-01-24T05:31:28+00:00 CRITICAL Out of memory (allocated 41943040) (tried to allocate 131072 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-assets.php on line 307
+
+2022-01-24T06:14:12+00:00 CRITICAL Out of memory (allocated 39845888) (tried to allocate 32768 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/js_composer/include/classes/core/class-vc-manager.php on line 725
+

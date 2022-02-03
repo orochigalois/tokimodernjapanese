@@ -1,0 +1,122 @@
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Info Bottom style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-list-holder {
+	
+	&.mkdf-pl-gallery-info-bottom {
+
+		&:not(.mkdf-enable-center) {
+
+			article {
+			
+				&:hover {
+				
+					.mkdf-pli-text-holder {
+						opacity: 0.9;
+						@include mkdfTransform(translateY(0));
+					}
+
+					.mkdf-pli-text-wrapper {
+
+						&:before {
+							height: 56px;
+						}
+
+						.mkdf-pli-title, .mkdf-pli-category-holder {
+							opacity: 1;
+							@include mkdfTransform(translateY(0));
+						}
+					}
+				}
+			}
+
+		}
+
+		&.mkdf-enable-center {
+
+			.owl-item.center.active {
+				
+				article {
+					.mkdf-pli-text-holder {
+						opacity: 0.9;
+						@include mkdfTransform(translateY(0));
+					}
+
+					.mkdf-pli-text-wrapper {
+
+						&:before {
+							height: 56px;
+						}
+
+						.mkdf-pli-title, .mkdf-pli-category-holder {
+							opacity: 1;
+							@include mkdfTransform(translateY(0));
+						}
+					}
+				}
+			}
+		}
+
+		article {
+
+			.mkdf-pl-item-inner {
+				overflow: hidden;
+			}
+		}
+		
+		&.mkdf-pl-has-shadow {
+			
+			.mkdf-pl-item-inner {
+				box-shadow: $default-box-shadow;
+			}
+		}
+		
+		.mkdf-pli-text-holder {
+			position: absolute;
+			display: block;
+			width: 304px;
+			height: 218px;
+			bottom: 0;
+			left: 0;	
+			right: 0;
+			margin: auto;
+			padding: 0 20px;
+			background-color: #fff;
+			overflow: hidden;
+			box-sizing: border-box;
+			@include mkdfTransition(.5s);
+			@include mkdfTransform(translateY(100%));
+			backface-visibility: hidden;
+			z-index: 20;
+			opacity: 0;
+		}
+		
+		.mkdf-pli-text-wrapper {
+			text-align: center;
+
+			&:before {
+				content: "";
+				height: 16px;
+				position: absolute;
+				background: $first-main-color;
+				left: 50%;
+				top: 0;
+				width: 1px;
+				@include mkdfTransition(.5s);
+			}
+
+			.mkdf-pli-title, .mkdf-pli-category-holder {
+				opacity: 0;
+				@include mkdfTransform(translateY(10px));
+			}
+
+			.mkdf-pli-title, .mkdf-pli-category-holder {
+				@include mkdfTransition(.3s .1s);
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Item Layout - Gallery Info Bottom style - end
+   ========================================================================== */

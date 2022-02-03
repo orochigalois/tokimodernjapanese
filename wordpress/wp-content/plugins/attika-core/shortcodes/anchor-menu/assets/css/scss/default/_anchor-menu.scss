@@ -1,0 +1,95 @@
+/* ==========================================================================
+   Anchor menu shortcode - start styles
+   ========================================================================== */
+.mkdf-anchor-menu-outer{
+	position: fixed;
+	top: 50%;
+	right: 0;
+	@include mkdfTransform(translateY(-50%));
+	@include mkdfTransition(transform .3s);
+	z-index: 110; //more than title and content
+	opacity: 0;
+
+    .mkdf-anchor-menu {
+        margin: 0 -2px;
+        @include mkdfTransform(rotate(90deg) translate3D(calc(50% + 12px), 15px, 0));
+        transform-origin: 100% 0;
+    }
+
+	.mkdf-anchor-menu-item{
+
+        display: inline-block;
+        margin: 0 2px;
+
+        a {
+            padding: 17px 22px 17px 27px;
+            background-color: #eff5f8;
+        }
+	}
+
+	.mkdf-anchor{
+
+		.mkdf-anchor-menu-item-responsive-label {
+			display: none;
+			color: #aaa;
+		}
+
+		.mkdf-anchor-menu-item-label{
+            position: relative;
+            display: inline-block;
+			font-size: 14px;
+            line-height: 30px;
+			font-weight: 400;
+			font-family: $additional-font;
+            letter-spacing: 0.5em;
+			color: $default-text-color;
+            text-transform: uppercase;
+            @include mkdfTransition(color 0.2s ease-out);
+
+			.mkdf-theme-light-skin & {
+				color: #777;
+			}
+
+            &:after {
+                content: "";
+                position: absolute;
+                height: 0;
+                width: 1px;
+                left: 50%;
+                top: 38px;
+                background-color: #000;
+                @include mkdfTransition(.3s ease-out);
+            }
+			.mkdf-theme-dark-skin & {
+				color: $default-text-color;
+                &:after {
+                    background-color: #fff;
+                }
+			}
+		}
+
+		&.current,
+        &:hover {
+            .mkdf-anchor-menu-item-label,
+			.mkdf-anchor-menu-item-responsive-label{
+                color: #000;
+
+                &:after {
+                    height: 36px;
+                }
+            }
+
+			.mkdf-theme-dark-skin & {
+                .mkdf-anchor-menu-item-label,
+				.mkdf-anchor-menu-item-responsive-label {
+                    color: #ffffff;
+                }
+			}
+		}
+	}
+
+
+}
+/* ==========================================================================
+   Anchor menu shortcode - end styles
+   ========================================================================== */

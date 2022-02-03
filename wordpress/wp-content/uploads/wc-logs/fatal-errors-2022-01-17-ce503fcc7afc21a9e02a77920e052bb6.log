@@ -1,0 +1,4 @@
+2022-01-17T02:47:17+00:00 CRITICAL Out of memory (allocated 27262976) (tried to allocate 20480 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/js_composer/include/classes/core/class-vc-base.php on line 718
+
+2022-01-17T02:48:33+00:00 CRITICAL Out of memory (allocated 18874368) (tried to allocate 20480 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/js_composer/include/params/iconpicker/iconpicker.php on line 3729
+

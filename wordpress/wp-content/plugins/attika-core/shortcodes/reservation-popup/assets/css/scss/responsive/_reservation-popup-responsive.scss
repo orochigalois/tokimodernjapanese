@@ -1,0 +1,29 @@
+@include ipad-portrait {
+    .mkdf-reservation-popup-holder .mkdf-rf-holder {
+        .mkdf-rf-col-holder {
+
+            padding: 0;
+
+            &.mkdf-rf-btn-holder,
+            &.mkdf-rf-time-col {
+                width: 100%;
+                padding: 0;
+                margin-bottom: 38px;
+            }
+
+        }
+    }
+}
+
+@include phone-landscape {
+    .mkdf-reservation-popup-opener {
+        &.mkdf-reservation-popup-opener-rectangle-with-text {
+            padding: 20px 80px 20px 40px;
+        }
+    }
+
+    .mkdf-reservation-popup-holder .mkdf-popup-inner {
+        width: 80%;
+        padding: 50px 10%;
+    }
+}

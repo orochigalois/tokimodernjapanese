@@ -1,0 +1,118 @@
+/* ==========================================================================
+   Portfolio Single page style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+	@include mkdfRelativeHolderLayout();
+	margin: 0 0 50px;
+	
+    .mkdf-ps-image-holder {
+	    @include mkdfRelativeHolderLayout();
+	    
+	    .mkdf-ps-image {
+		    
+		    &:not(.mkdf-item-space) {
+			    @include mkdfRelativeHolderLayout();
+			    box-sizing: border-box;
+		    }
+		    
+		    a, img {
+			    position: relative;
+			    display: block;
+		    }
+	    }
+    }
+	
+	.mkdf-ps-info-holder {
+		@include mkdfRelativeHolderLayout();
+
+		.mkdf-ps-info-inner {
+			background-color: #fef8f7;
+			display: inline-block;
+			padding: 40px 25px 190px 50px;
+			box-sizing: border-box;
+		}
+		
+		.mkdf-ps-info-item {
+			@include mkdfRelativeHolderLayout();
+			margin: 0;
+			float: left;
+			line-height: 1.9em;
+
+			.mkdf-ps-info-category {
+				&:after {
+					content: ',';
+				}
+
+				&:last-of-type {
+					&:after {
+						content: '';
+					}
+				}
+			}
+			
+			p, a {
+				margin: 0;
+				@include mkdfP();
+				display: inline-block;
+				color: $default-text-color;
+			}
+
+			a {
+					position: relative;
+
+					&:before {
+						content: '';
+						position: absolute;
+						left: 0;
+						bottom: 4px;
+						width: 100%;
+						height: 1px;
+						opacity: 0;
+						background-color: $default-border-color;
+					}
+
+				&:hover {
+					&:before{
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		.mkdf-ps-info-title {
+			margin: 0;
+			@include mkdfP();
+			display: inline-block;
+			text-transform: capitalize;
+			color: $default-text-color;
+		}
+	}
+}
+
+/* ==========================================================================
+   Portfolio Single page style - end
+   ========================================================================== */
+
+/* ==========================================================================
+   Portfolio Single page specific style for types - begin
+   ========================================================================== */
+
+.mkdf-portfolio-single-holder {
+	
+	.mkdf-ps-image-holder {
+		
+		&.mkdf-grid-masonry-list {
+			
+			.mkdf-ps-image {
+				
+				a {
+					height: 100%;
+				}
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Portfolio Single page specific style for types - end
+   ========================================================================== */

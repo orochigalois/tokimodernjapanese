@@ -1,0 +1,137 @@
+/* ==========================================================================
+   Title styles - begin
+   ========================================================================== */
+/* ==========================================================================
+   Title style - begin
+   ========================================================================== */
+.mkdf-title-holder {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 246px;
+  background-color: #fef8f7;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  z-index: 101;
+}
+
+.mkdf-title-holder.mkdf-title-full-width .mkdf-grid {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0 40px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.mkdf-title-holder.mkdf-bg-responsive {
+  height: auto !important;
+}
+
+.mkdf-title-holder.mkdf-bg-responsive .mkdf-title-image {
+  display: block;
+}
+
+.mkdf-title-holder.mkdf-bg-responsive .mkdf-title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.mkdf-title-holder.mkdf-bg-parallax {
+  background-attachment: fixed;
+}
+
+.mkdf-title-holder .mkdf-title-image {
+  display: none;
+}
+
+.mkdf-title-holder .mkdf-title-image img {
+  display: block;
+  width: 100%;
+}
+
+.mkdf-title-holder .mkdf-title-wrapper {
+  position: relative;
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+}
+
+.mkdf-title-holder .mkdf-title-inner {
+  position: relative;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* ==========================================================================
+   Title style - end
+   ========================================================================== */
+/* ==========================================================================
+   Attika Title type style - begin
+   ========================================================================== */
+.mkdf-title-holder.mkdf-attika-type {
+  background-color: #fff;
+}
+
+.mkdf-title-holder.mkdf-attika-type .mkdf-grid {
+  display: table;
+  position: relative;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.mkdf-title-holder.mkdf-attika-type .mkdf-grid:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200%;
+  height: 100%;
+  background-color: #fef8f7;
+  z-index: 10;
+}
+
+.mkdf-title-holder.mkdf-attika-type .mkdf-page-title {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  width: 30%;
+  z-index: 20;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+/* ==========================================================================
+   Attika type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Standard Title type style - begin
+   ========================================================================== */
+.mkdf-title-holder.mkdf-standard-type .mkdf-page-title {
+  margin: 0;
+}
+
+.mkdf-title-holder.mkdf-standard-type .mkdf-page-subtitle {
+  margin: 10px 0 0;
+}
+
+/* ==========================================================================
+   Standard Title type style - end
+   ========================================================================== */
+/* ==========================================================================
+   Title styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=title-map.css.map */

@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Dropcaps shortcode style - begin
+   ========================================================================== */
+
+.mkdf-dropcaps {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    line-height: 42px;
+    font-size: 42px;
+    color: #999;
+    font-weight: 300;
+    text-align: center;
+    margin: 8px 28px 0 5px;
+
+    &.mkdf-square {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 35px;
+        color: #fff;
+        background-color: $default-heading-color;
+        margin: 11px 25px 0 0;
+        box-sizing: border-box;
+    }
+
+    &.mkdf-circle {
+        @extend .mkdf-square;
+        border-radius: 3em;
+    }
+}
+/* ==========================================================================
+   Dropcaps shortcode style - end
+   ========================================================================== */

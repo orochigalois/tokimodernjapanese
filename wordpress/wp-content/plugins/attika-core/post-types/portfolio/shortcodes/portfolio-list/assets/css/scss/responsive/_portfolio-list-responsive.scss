@@ -1,0 +1,31 @@
+@include ipad-portrait {
+    .mkdf-portfolio-list-holder {
+        &.mkdf-pl-trio {
+            article {
+                width: 33.33%!important;
+
+                &:nth-child(2n+1) {
+                    clear: none!important;
+                }
+            }
+        }
+    }
+}
+
+@include phone-landscape {
+    .mkdf-portfolio-list-holder {
+        &.mkdf-pl-trio {
+
+            padding-top: 40px!important;
+
+            article {
+                width: 100%!important;
+                margin-top: 0!important;
+
+                .mkdf-pli-text-holder {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,214 @@
+/* ==========================================================================
+   Portfolio Slider shortcode style - begin
+   ========================================================================== */
+
+.mkdf-portfolio-slider-holder {
+	@include mkdfRelativeHolderLayout();
+	
+	.mkdf-one-columns {
+
+		.mkdf-list-is-slider {
+
+			.owl-item {
+				
+				.mkdf-item-space {
+					width: 100% !important;
+				}
+			}
+		}
+	}
+
+    .mkdf-pl-inner {
+        margin: 0!important;
+    }
+
+	.mkdf-portfolio-list-holder {
+
+		&.mkdf-disable-bottom-space {
+			margin-bottom: 0;
+		}
+
+        article {
+            .mkdf-pli-link {
+                z-index: 10;
+            }
+        }
+
+		&.mkdf-nav-light-skin {
+
+			.owl-nav {
+
+				.owl-prev,
+				.owl-next {
+					color: $header-light-color;
+					
+					&:hover {
+						color: $header-light-hover-color;
+					}
+				}
+			}
+		}
+
+		&.mkdf-nav-dark-skin {
+
+			.owl-nav {
+
+				.owl-prev,
+				.owl-next {
+					color: $header-dark-color;
+					
+					&:hover {
+						color: $header-dark-hover-color;
+					}
+				}
+			}
+		}
+
+		&.mkdf-pag-light-skin {
+
+			.owl-dots {
+
+				.owl-dot {
+
+					span {
+						background-color: rgba($header-light-color, .2);
+					}
+
+					&.active,
+					&:hover {
+
+						span {
+							background-color: $header-light-hover-color;
+						}
+					}
+				}
+			}
+		}
+
+		&.mkdf-pag-dark-skin {
+
+			.owl-dots {
+
+				.owl-dot {
+
+					span {
+						background-color: rgba($header-dark-color, .2);
+					}
+
+					&.active,
+					&:hover {
+
+						span {
+							background-color: $header-dark-hover-color;
+						}
+					}
+				}
+			}
+		}
+
+		&.mkdf-pag-on-slider {
+
+			.owl-nav {
+
+				.owl-prev,
+				.owl-next {
+					@include mkdfTransform(translateY(-50%));
+				}
+			}
+
+			.owl-dots {
+				position: absolute;
+				left: 0;
+				bottom: 20px;
+				width: 100%;
+				margin: 0;
+				z-index: 23;
+			}
+		}
+
+		&.mkdf-tabbed-title-pagination {
+
+			&.mkdf-pag-light-skin {
+
+				.owl-dots {
+
+					.owl-dot {
+						
+						span {
+							color: $first-main-color;
+						}
+					}
+				}
+			}
+
+			.owl-dots {
+
+				margin-bottom: 30px;
+
+				.owl-dot {
+
+					&:hover, &.active {
+
+						span {
+							background-color: transparent;
+
+							&:after {
+								width: 100%;
+							}
+						}
+					}
+
+					span {
+						position: relative;
+						display: inline-block;
+						font-size: 12px;
+						letter-spacing: 5px;
+						text-transform: uppercase;
+						font-weight: 400;
+						color: $default-text-color;
+						font-family: $additional-font;
+						background-color: transparent;
+						width: initial;
+						height: initial;
+						padding: 10px;
+						border: none;
+
+						&:after {
+							content: '';
+							height: 1px;
+							width: 0;
+							position: absolute;
+							bottom: 5px;
+							left: 0;
+							background-color: currentColor;
+							@include mkdfTransition(.4s);
+						}
+					}
+				}
+			}
+		}
+
+		&.mkdf-pl-slider-overlay {
+			article {
+				.mkdf-pli-link {
+					z-index: 30;
+				}
+			}
+		}
+	}
+
+    .mkdf-ps-fh-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+}
+/* ==========================================================================
+   Portfolio Slider shortcode style - end
+   ========================================================================== */

@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Custom Post Types responsive styles
+   ========================================================================== */
+/* ==========================================================================
+   Masonry Gallery shortcodes responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-masonry-gallery-holder .mkdf-mg-grid-sizer,
+  .mkdf-masonry-gallery-holder .mkdf-mg-item {
+    width: 50%;
+  }
+  .mkdf-masonry-gallery-holder .mkdf-mg-item.mkdf-masonry-size-large-width, .mkdf-masonry-gallery-holder .mkdf-mg-item.mkdf-masonry-size-large-width-height {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-masonry-gallery-holder .mkdf-mg-grid-sizer,
+  .mkdf-masonry-gallery-holder .mkdf-mg-item {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Masonry Gallery shortcodes responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Portfolio Single page responsive style - begin
+   ========================================================================== */
+.mkdf-portfolio-single-holder .mkdf-ps-image-holder.mkdf-ps-gallery-images {
+  /***** Columns Layout - end *****/
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-portfolio-single-holder .mkdf-ps-image-holder.mkdf-ps-gallery-images .mkdf-ps-image {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-single-holder .mkdf-grid-col-8 {
+    padding: 0 0 0 15px !important;
+  }
+  .mkdf-portfolio-single-holder .mkdf-ps-info-holder {
+    margin: 30px 0 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Single page responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .mkdf-portfolio-list-holder.mkdf-pl-trio article {
+    width: 33.33% !important;
+  }
+  .mkdf-portfolio-list-holder.mkdf-pl-trio article:nth-child(2n+1) {
+    clear: none !important;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-portfolio-list-holder.mkdf-pl-trio {
+    padding-top: 40px !important;
+  }
+  .mkdf-portfolio-list-holder.mkdf-pl-trio article {
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+  .mkdf-portfolio-list-holder.mkdf-pl-trio article .mkdf-pli-text-holder {
+    opacity: 1;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Slider shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-portfolio-slider-holder .mkdf-portfolio-list-holder.mkdf-pl-gallery-info-bottom.mkdf-enable-center .owl-item.active article .mkdf-pli-text-holder {
+    opacity: 0.9;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .mkdf-portfolio-slider-holder .mkdf-portfolio-list-holder.mkdf-pl-gallery-info-bottom.mkdf-enable-center .owl-item.active article .mkdf-pli-text-wrapper:before {
+    height: 56px;
+  }
+  .mkdf-portfolio-slider-holder .mkdf-portfolio-list-holder.mkdf-pl-gallery-info-bottom.mkdf-enable-center .owl-item.active article .mkdf-pli-text-wrapper .mkdf-pli-title, .mkdf-portfolio-slider-holder .mkdf-portfolio-list-holder.mkdf-pl-gallery-info-bottom.mkdf-enable-center .owl-item.active article .mkdf-pli-text-wrapper .mkdf-pli-category-holder {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-portfolio-slider-holder .mkdf-pl-inner {
+    margin: 0 !important;
+  }
+}
+
+/* ==========================================================================
+   Portfolio Slider shortcode responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 680px) {
+  .mkdf-testimonials-holder .owl-stage-outer:after {
+    height: 88% !important;
+  }
+  .mkdf-testimonials-holder .owl-nav {
+    display: none;
+  }
+  .mkdf-testimonials-holder .mkdf-testimonials {
+    padding: 0;
+  }
+  .mkdf-testimonials-holder .mkdf-testimonial-author .mkdf-testimonials-author-name {
+    margin-top: -64px;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/attika-core/assets/css/custom-post-types-map-responsive.css.map */

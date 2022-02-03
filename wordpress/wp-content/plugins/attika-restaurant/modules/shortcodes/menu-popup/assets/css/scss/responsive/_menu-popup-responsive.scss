@@ -1,0 +1,33 @@
+@include ipad-portrait {
+    .mkdf-menu-popup-holder {
+        .mkdf-popup-inner {
+            width: 90%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        &.mkdf-menu-popup-one-columns {
+
+            .mkdf-popup-inner {
+                width: 75%;
+            }
+        }
+    }
+}
+
+@include phone-landscape {
+    .mkdf-menu-popup-holder {
+        &.mkdf-menu-popup-three-columns {
+            .mkdf-restaurant-menu-list {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        &.mkdf-menu-popup-one-columns {
+
+            .mkdf-popup-inner {
+                width: 100%;
+            }
+        }
+    }
+}

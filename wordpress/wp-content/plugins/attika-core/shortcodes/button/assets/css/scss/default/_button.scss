@@ -1,0 +1,137 @@
+/* ==========================================================================
+   Button shortcode style - begin
+   ========================================================================== */
+
+.mkdf-btn {
+    @include mkdfButtonDefaultStyle();
+    @include mkdfButtonSize();
+    cursor: pointer;
+
+    /* .mkdf-btn-text {
+        margin-right: -0.5em;
+    } */
+    
+    &.mkdf-btn-simple {
+        padding: 0 !important;
+        color: $default-text-color;
+        background-color: transparent;
+        border: 0;
+        vertical-align: middle;
+
+        .mkdf-btn-line {
+            height: 1px;
+            width: 100%;
+            background-color: #959595;
+            position: absolute;
+            top: 0;
+            left: 0;
+            @include mkdfTransition(transform .5s cubic-bezier(0.51, 0.51, 0.21, 1.1));
+        }
+
+        .mkdf-btn-text {
+            display: inline-block;
+            vertical-align: middle;
+            padding: 0 19px;
+            box-sizing: border-box;
+            @include mkdfTransition(transform .5s cubic-bezier(0.51, 0.51, 0.21, 1.1));
+        }
+
+        &:hover {
+            .mkdf-btn-line {
+                @include mkdfTransform(translateY(28px));
+            }
+
+            .mkdf-btn-text {
+                @include mkdfTransform(translateY(-2px));
+            }
+        }
+
+        &:not(.mkdf-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: $default-heading-color !important;
+        }
+
+        &:not(.mkdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.mkdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: transparent !important;
+        }
+    }
+
+    &.mkdf-btn-solid {
+        @include mkdfButtonSolidColor();
+        text-indent: 0.5em;
+
+        &:not(.mkdf-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: #000 !important;
+        }
+
+        &:not(.mkdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: transparent !important;
+        }
+
+        &:not(.mkdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: $default-heading-color !important;
+        }
+    }
+
+    &.mkdf-btn-outline {
+        @include mkdfButtonOutlineColor();
+        text-indent: 0.5em;
+
+        &:not(.mkdf-btn-custom-hover-color):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            color: #fff !important;
+        }
+
+        &:not(.mkdf-btn-custom-hover-bg):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            background-color: $default-heading-color !important;
+        }
+
+        &:not(.mkdf-btn-custom-border-hover):hover {
+            //important because of inline color attribute. :not is used so we don't have to use important in JS
+            border-color: $default-heading-color !important;
+        }
+    }
+    
+    &.mkdf-btn-small {
+        @include mkdfButtonSize(small);
+    }
+    
+    &.mkdf-btn-large {
+        @include mkdfButtonSize(large);
+    }
+    
+    &.mkdf-btn-huge {
+        @include mkdfButtonSize(huge);
+    }
+
+    &.mkdf-btn-icon {
+
+        > i,
+        > span:not(.mkdf-btn-text) {
+            position: relative;
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 0 0 4px;
+            font-size: 1.142857142857143em;
+            line-height: inherit;
+
+            &:before {
+                display: block;
+                line-height: inherit;
+            }
+        }
+    }
+}
+/* ==========================================================================
+   Button shortcode style - end
+   ========================================================================== */

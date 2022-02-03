@@ -1,0 +1,1079 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .mkdf-anchor-menu-outer .mkdf-anchor-menu-item a {
+    padding: 17px 10px 17px 15px;
+  }
+  .mkdf-anchor-menu-outer .mkdf-anchor .mkdf-anchor-menu-item-label {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-anchor-menu-outer {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Button shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-btn.mkdf-btn-large, .mkdf-btn.mkdf-btn-huge {
+    padding: 1px 16px;
+  }
+}
+
+/* ==========================================================================
+   Button shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Call To Action shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+  .mkdf-call-to-action-holder .mkdf-grid {
+    width: 1100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .mkdf-call-to-action-holder.mkdf-three-quarters-columns .mkdf-cta-text-holder, .mkdf-call-to-action-holder.mkdf-four-fifths-columns .mkdf-cta-text-holder {
+    width: 66.66666666666667%;
+  }
+  .mkdf-call-to-action-holder.mkdf-three-quarters-columns .mkdf-cta-button-holder, .mkdf-call-to-action-holder.mkdf-four-fifths-columns .mkdf-cta-button-holder {
+    width: 33.33333333333333%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-call-to-action-holder.mkdf-normal-layout .mkdf-cta-inner,
+  .mkdf-call-to-action-holder.mkdf-normal-layout .mkdf-cta-text-holder,
+  .mkdf-call-to-action-holder.mkdf-normal-layout .mkdf-cta-button-holder {
+    display: block;
+  }
+  .mkdf-call-to-action-holder.mkdf-normal-layout .mkdf-cta-button-holder {
+    margin: 28px 0 0;
+    text-align: initial;
+  }
+  .mkdf-call-to-action-holder.mkdf-two-halves-columns .mkdf-cta-text-holder,
+  .mkdf-call-to-action-holder.mkdf-two-halves-columns .mkdf-cta-button-holder, .mkdf-call-to-action-holder.mkdf-two-thirds-columns .mkdf-cta-text-holder,
+  .mkdf-call-to-action-holder.mkdf-two-thirds-columns .mkdf-cta-button-holder, .mkdf-call-to-action-holder.mkdf-three-quarters-columns .mkdf-cta-text-holder,
+  .mkdf-call-to-action-holder.mkdf-three-quarters-columns .mkdf-cta-button-holder, .mkdf-call-to-action-holder.mkdf-four-fifths-columns .mkdf-cta-text-holder,
+  .mkdf-call-to-action-holder.mkdf-four-fifths-columns .mkdf-cta-button-holder {
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Call To Action shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Cards Gallery shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .mkdf-cards-gallery .mkdf-cg-fake-card {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-left .mkdf-cg-card {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-left .mkdf-cg-card.mkdf-out {
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-left .mkdf-cg-card:nth-last-child(6) {
+    -webkit-transform: scale(0.3) translateX(84%);
+    -ms-transform: scale(0.3) translateX(84%);
+    transform: scale(0.3) translateX(84%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-left .mkdf-cg-card:nth-last-child(5) {
+    -webkit-transform: scale(0.4) translateX(60%);
+    -ms-transform: scale(0.4) translateX(60%);
+    transform: scale(0.4) translateX(60%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-left .mkdf-cg-card:nth-last-child(4) {
+    -webkit-transform: scale(0.5) translateX(39%);
+    -ms-transform: scale(0.5) translateX(39%);
+    transform: scale(0.5) translateX(39%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-left .mkdf-cg-card:nth-last-child(3) {
+    -webkit-transform: scale(0.6) translateX(25%);
+    -ms-transform: scale(0.6) translateX(25%);
+    transform: scale(0.6) translateX(25%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-left .mkdf-cg-card:nth-last-child(2) {
+    -webkit-transform: scale(0.7) translateX(11.2%);
+    -ms-transform: scale(0.7) translateX(11.2%);
+    transform: scale(0.7) translateX(11.2%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-right .mkdf-cg-card {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-right .mkdf-cg-card.mkdf-out {
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-right .mkdf-cg-card:nth-last-child(6) {
+    -webkit-transform: scale(0.3) translateX(-84%);
+    -ms-transform: scale(0.3) translateX(-84%);
+    transform: scale(0.3) translateX(-84%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-right .mkdf-cg-card:nth-last-child(5) {
+    -webkit-transform: scale(0.4) translateX(-60%);
+    -ms-transform: scale(0.4) translateX(-60%);
+    transform: scale(0.4) translateX(-60%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-right .mkdf-cg-card:nth-last-child(4) {
+    -webkit-transform: scale(0.5) translateX(-39%);
+    -ms-transform: scale(0.5) translateX(-39%);
+    transform: scale(0.5) translateX(-39%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-right .mkdf-cg-card:nth-last-child(3) {
+    -webkit-transform: scale(0.6) translateX(-25%);
+    -ms-transform: scale(0.6) translateX(-25%);
+    transform: scale(0.6) translateX(-25%);
+  }
+  .mkdf-cards-gallery.mkdf-cg-shuffled-right .mkdf-cg-card:nth-last-child(2) {
+    -webkit-transform: scale(0.7) translateX(-11.2%);
+    -ms-transform: scale(0.7) translateX(-11.2%);
+    transform: scale(0.7) translateX(-11.2%);
+  }
+}
+
+/* ==========================================================================
+   Cards Gallery shortcode responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .mkdf-cbci .mkdf-cbci-content-left {
+    padding-right: 30% !important;
+    padding-left: 10% !important;
+  }
+  .mkdf-cbci .mkdf-cbci-content-right {
+    padding-left: 30% !important;
+    padding-right: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-cbci .mkdf-cbci-content-left,
+  .mkdf-cbci .mkdf-cbci-content-right {
+    width: 100%;
+    position: relative;
+    padding: 50px 20% !important;
+  }
+  .mkdf-cbci .mkdf-cbci-content-left .mkdf-cbci-text-left,
+  .mkdf-cbci .mkdf-cbci-content-left .mkdf-cbci-text-right,
+  .mkdf-cbci .mkdf-cbci-content-right .mkdf-cbci-text-left,
+  .mkdf-cbci .mkdf-cbci-content-right .mkdf-cbci-text-right {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-cbci .mkdf-cbci-content-left,
+  .mkdf-cbci .mkdf-cbci-content-right {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-cbci .mkdf-cbci-content-circle-inner {
+    display: none;
+  }
+  .mkdf-cbci .mkdf-cbci-content-circle-content {
+    padding: 30px;
+  }
+}
+
+/* ==========================================================================
+   Countdown shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1200px) {
+  .mkdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-countdown .countdown-row.countdown-show4 .countdown-section, .mkdf-countdown .countdown-row.countdown-show5 .countdown-section, .mkdf-countdown .countdown-row.countdown-show6 .countdown-section {
+    width: 33.33333333333333%;
+  }
+  .mkdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-countdown .countdown-row .countdown-section .countdown-amount {
+    font-size: 40px;
+  }
+}
+
+/* ==========================================================================
+   Countdown shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Custom Font shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .mkdf-custom-font-holder.mkdf-disable-title-break br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Custom Font shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Elements Holder shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1366px) {
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-two-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-three-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-four-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-five-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-six-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-one-column-alignment-left .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: left;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-one-column-alignment-right .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: right;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1366.mkdf-one-column-alignment-center .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-two-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-three-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-four-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-five-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-six-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-one-column-alignment-left .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: left;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-one-column-alignment-right .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: right;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-1024.mkdf-one-column-alignment-center .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-two-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-three-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-four-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-five-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-six-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-one-column-alignment-left .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: left;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-one-column-alignment-right .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: right;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-768.mkdf-one-column-alignment-center .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-two-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-three-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-four-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-five-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-six-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-one-column-alignment-left .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: left;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-one-column-alignment-right .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: right;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-680.mkdf-one-column-alignment-center .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-two-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-three-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-four-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-five-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-six-columns .mkdf-eh-item {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-one-column-alignment-left .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: left;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-one-column-alignment-right .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: right;
+  }
+  .mkdf-elements-holder.mkdf-responsive-mode-480.mkdf-one-column-alignment-center .mkdf-eh-item .mkdf-eh-item-content {
+    text-align: center;
+  }
+  .mkdf-elements-holder .mkdf-eh-item-content {
+    padding: 0 10px;
+  }
+}
+
+/* ==========================================================================
+   Elements Holder shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Full Screen Image Slider shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .mkdf-full-screen-image-slider .mkdf-fsis-content-image img {
+    max-width: 440px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .mkdf-full-screen-image-slider .mkdf-fsis-slider .owl-dots {
+    bottom: calc(8% - 14px);
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-thumb-nav {
+    top: 16%;
+    height: 68%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-top,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-bottom {
+    height: 14%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-left,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-right {
+    width: 14%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-top,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-bottom {
+    height: 0;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-left,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-right {
+    width: 0;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-content-image img {
+    max-width: 370px;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-top,
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-bottom {
+    height: 16%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-right,
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-left {
+    width: 16%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-full-screen-image-slider .mkdf-fsis-content-image img {
+    max-width: 340px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-full-screen-image-slider .mkdf-fsis-slider .owl-nav {
+    display: none;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-slider .owl-dots {
+    bottom: calc(5% - 14px);
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-thumb-nav {
+    display: none;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-content-image-init .mkdf-fsis-image-left {
+    left: 2%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-content-image-init .mkdf-fsis-image-right {
+    right: 5%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-content-image-init .mkdf-fsis-subtitle {
+    margin: 15px 0 0;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-image-left {
+    left: calc(2% - 10px);
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-image-right {
+    right: calc(5% - 10px);
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-top,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-bottom {
+    height: 10%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-left,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-image-hover .mkdf-fsis-frame-right {
+    width: 10%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-image-left {
+    left: calc(2% - 25px);
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-image-right {
+    right: calc(5% - 25px);
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-top,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-bottom {
+    height: 0;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-left,
+  .mkdf-full-screen-image-slider .mkdf-fsis-item.mkdf-fsis-active-image .mkdf-fsis-frame-right {
+    width: 0;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-top,
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-bottom {
+    height: 10%;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-right,
+  .mkdf-full-screen-image-slider .mkdf-fsis-frame-left {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-full-screen-image-slider .mkdf-fsis-slider .owl-dots {
+    display: none;
+  }
+  .mkdf-full-screen-image-slider .mkdf-fsis-content-image {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Full Screen Image Slider shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Google Map shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-google-map-overlay {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Google Map shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Horizontal Timeline shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+  .mkdf-horizontal-timeline .mkdf-ht-content {
+    margin-top: 50px;
+  }
+  .mkdf-horizontal-timeline .mkdf-ht-content .mkdf-hti-content-inner.mkdf-timeline-has-image > * {
+    width: 100%;
+    float: none;
+  }
+  .mkdf-horizontal-timeline .mkdf-ht-content .mkdf-hti-content-inner.mkdf-timeline-has-image .mkdf-hti-content-value {
+    margin-top: 30px;
+  }
+}
+
+/* ==========================================================================
+   Horizontal Timeline shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Interactive link showcase shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1440px) {
+  .mkdf-ils-holder .mkdf-ils-item-link {
+    font-size: 100px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .mkdf-ils-holder .mkdf-ils-item-link {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-ils-holder .mkdf-ils-item-link {
+    font-size: 54px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-ils-holder .mkdf-ils-item-link {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+   Interactive link showcase shortcode responsive style - end
+   ========================================================================== */
+/* ==========================================================================
+   Process shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1366px) {
+  .mkdf-process-holder.mkdf-responsive-1366 .mkdf-mark-horizontal-holder {
+    display: none;
+  }
+  .mkdf-process-holder.mkdf-responsive-1366 .mkdf-mark-vertical-holder {
+    display: block;
+  }
+  .mkdf-process-holder.mkdf-responsive-1366 .mkdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-process-holder.mkdf-responsive-1366 .mkdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-process-holder.mkdf-responsive-1024 .mkdf-mark-horizontal-holder {
+    display: none;
+  }
+  .mkdf-process-holder.mkdf-responsive-1024 .mkdf-mark-vertical-holder {
+    display: block;
+  }
+  .mkdf-process-holder.mkdf-responsive-1024 .mkdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-process-holder.mkdf-responsive-1024 .mkdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-process-holder.mkdf-responsive-768 .mkdf-mark-horizontal-holder {
+    display: none;
+  }
+  .mkdf-process-holder.mkdf-responsive-768 .mkdf-mark-vertical-holder {
+    display: block;
+  }
+  .mkdf-process-holder.mkdf-responsive-768 .mkdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-process-holder.mkdf-responsive-768 .mkdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-process-holder.mkdf-responsive-680 .mkdf-mark-horizontal-holder {
+    display: none;
+  }
+  .mkdf-process-holder.mkdf-responsive-680 .mkdf-mark-vertical-holder {
+    display: block;
+  }
+  .mkdf-process-holder.mkdf-responsive-680 .mkdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-process-holder.mkdf-responsive-680 .mkdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mkdf-process-holder.mkdf-responsive-480 .mkdf-mark-horizontal-holder {
+    display: none;
+  }
+  .mkdf-process-holder.mkdf-responsive-480 .mkdf-mark-vertical-holder {
+    display: block;
+  }
+  .mkdf-process-holder.mkdf-responsive-480 .mkdf-process-inner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding: 0 0 0 76px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-process-holder.mkdf-responsive-480 .mkdf-process-item {
+    width: 100%;
+    float: none;
+    padding: 0;
+    text-align: inherit;
+  }
+}
+
+/* ==========================================================================
+   Process shortcode responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-rf-holder .mkdf-rf-col-holder {
+    width: 24%;
+  }
+  .mkdf-rf-holder .mkdf-rf-col-holder:first-child {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-rf-holder .mkdf-rf-row {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+  }
+  .mkdf-rf-holder .mkdf-rf-col-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .mkdf-rf-holder .mkdf-rf-col-holder .mkdf-rf-field-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder .mkdf-rf-field-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col .mkdf-rf-field-holder {
+    width: 100%;
+  }
+  .mkdf-rf-holder .mkdf-rf-label {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-rf-holder .mkdf-rf-col-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col {
+    width: 100%;
+  }
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder {
+    width: auto;
+    float: none;
+  }
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder .mkdf-btn {
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-reservation-popup-holder .mkdf-rf-holder .mkdf-rf-col-holder {
+    padding: 0;
+  }
+  .mkdf-reservation-popup-holder .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder, .mkdf-reservation-popup-holder .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 38px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-reservation-popup-opener.mkdf-reservation-popup-opener-rectangle-with-text {
+    padding: 20px 80px 20px 40px;
+  }
+  .mkdf-reservation-popup-holder .mkdf-popup-inner {
+    width: 80%;
+    padding: 50px 10%;
+  }
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-section-title-holder.mkdf-st-two-columns {
+    padding: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-section-title-holder {
+    padding: 0 !important;
+  }
+  .mkdf-section-title-holder.mkdf-st-two-columns .mkdf-st-title,
+  .mkdf-section-title-holder.mkdf-st-two-columns .mkdf-st-text {
+    width: 100%;
+    float: none !important;
+    text-align: initial !important;
+  }
+  .mkdf-section-title-holder.mkdf-st-two-columns .mkdf-st-text {
+    margin: 14px 0 0;
+  }
+  .mkdf-section-title-holder.mkdf-st-disable-title-break .mkdf-st-title br {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   Section Title shortcode responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Split Section responsive styles - begin
+   ========================================================================== */
+@media only screen and (max-width: 1366px) {
+  .mkdf-ss-holder.mkdf-ss-break-1366.mkdf-ss-image-right .mkdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-1366 .mkdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-1366 .mkdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-1366 .mkdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mkdf-ss-holder.mkdf-ss-break-1024.mkdf-ss-image-right .mkdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-1024 .mkdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-1024 .mkdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-1024 .mkdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-ss-holder.mkdf-ss-break-768.mkdf-ss-image-right .mkdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-768 .mkdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-768 .mkdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-768 .mkdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-ss-holder.mkdf-ss-break-680.mkdf-ss-image-right .mkdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-680 .mkdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-680 .mkdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-680 .mkdf-ss-image img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .mkdf-ss-holder.mkdf-ss-break-480.mkdf-ss-image-right .mkdf-ss-image {
+    position: relative;
+    left: 0;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-480 .mkdf-ss-content {
+    left: 0;
+    width: 100%;
+    padding: 25px;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-480 .mkdf-ss-image {
+    position: relative;
+    width: 100%;
+    background-image: none !important;
+  }
+  .mkdf-ss-holder.mkdf-ss-break-480 .mkdf-ss-image img {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Split Section responsive styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Tabs shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  .mkdf-tabs.mkdf-tabs-standard .mkdf-tabs-nav li a {
+    padding: 7px 21px;
+  }
+  .mkdf-tabs.mkdf-tabs-boxed .mkdf-tabs-nav li {
+    margin: 0 8px 0 0;
+  }
+  .mkdf-tabs.mkdf-tabs-boxed .mkdf-tabs-nav li a {
+    padding: 7px 18px;
+  }
+  .mkdf-tabs.mkdf-tabs-simple .mkdf-tabs-nav li {
+    margin: 0 26px 0 0;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tabs-nav {
+    width: 180px;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tab-container {
+    width: calc(100% - 180px);
+    padding: 10px 0 0 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-tabs.mkdf-tabs-standard .mkdf-tabs-nav li {
+    display: block;
+    float: none;
+  }
+  .mkdf-tabs.mkdf-tabs-standard .mkdf-tabs-nav li a {
+    width: 100%;
+  }
+  .mkdf-tabs.mkdf-tabs-boxed .mkdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 8px;
+  }
+  .mkdf-tabs.mkdf-tabs-boxed .mkdf-tabs-nav li a {
+    width: 100%;
+  }
+  .mkdf-tabs.mkdf-tabs-simple .mkdf-tabs-nav li {
+    margin: 0 20px 0 0;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tabs-nav,
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tab-container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tabs-nav {
+    border-right: 0;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tabs-nav li {
+    float: left;
+    margin: 0 20px 0 0;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tab-container {
+    padding: 31px 0 0;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-tabs.mkdf-tabs-simple .mkdf-tabs-nav {
+    padding: 0 0 20px;
+  }
+  .mkdf-tabs.mkdf-tabs-simple .mkdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .mkdf-tabs.mkdf-tabs-simple .mkdf-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tabs-nav li {
+    display: block;
+    float: none;
+    margin: 0 0 20px;
+  }
+  .mkdf-tabs.mkdf-tabs-vertical .mkdf-tabs-nav li a {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/* ==========================================================================
+   Tabs shortcode responsive style - end
+   ========================================================================== */
+@media only screen and (max-width: 680px) {
+  .mkdf-image-with-text-holder .mkdf-iwt-text-holder {
+    padding: 0 30px;
+  }
+  .mkdf-image-with-text-holder .mkdf-iwt-text-holder:after {
+    right: 14px;
+  }
+  .mkdf-image-with-text-holder.mkdf-iwt-align-left .mkdf-iwt-text-holder:after {
+    left: 14px;
+    right: auto;
+  }
+}
+
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - begin
+   ========================================================================== */
+@media only screen and (max-width: 1024px) {
+  body.mkdf-vss-initialized {
+    overflow-y: visible !important;
+    height: auto !important;
+  }
+  .mkdf-vertical-split-slider,
+  #multiscroll-nav {
+    display: none;
+  }
+  .mkdf-vss-responsive {
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   Vertical Split Slider shortcode responsive style - end
+   ========================================================================== */
+
+/*# sourceMappingURL=../../../../plugins/attika-core/assets/css/shortcodes-map-responsive.css.map */

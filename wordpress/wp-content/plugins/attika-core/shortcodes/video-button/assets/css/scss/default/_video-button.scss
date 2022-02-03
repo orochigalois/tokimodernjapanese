@@ -1,0 +1,146 @@
+/* ==========================================================================
+   Video Button shortcode start styles
+   ========================================================================== */
+
+.mkdf-video-button-holder {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	
+	&.mkdf-vb-has-img {
+		
+		.mkdf-video-button-play,
+		.mkdf-video-button-play-image {
+			@include mkdfAbsoluteHolderLayout();
+			z-index: 1;
+			
+			.mkdf-video-button-play-inner {
+				position: relative;
+				top: 50%;
+				left: 0;
+				display: block;
+				text-align: center;
+				@include mkdfTransform(translateY(-50%));
+
+				&:hover {
+					&:after {
+						@include mkdfTransform(scale(1.06));
+					}
+				}
+
+				&:after {
+					content: '';
+                    position: absolute;
+					width: 86px;
+					height: 86px;
+					background-color: #fff;
+					border-radius: 100%;
+					left: calc(50% - 45px);
+					top: calc(50% - 43px);
+					z-index: -1;
+					@include mkdfTransform(scale(1));
+					@include mkdfTransition(transform .3s);
+					backface-visibility: hidden;
+				}
+			}
+		}
+	}
+	
+	.mkdf-video-button-image {
+		@include mkdfRelativeHolderLayout();
+		
+		img {
+			display: block;
+		}
+	}
+
+
+    .mkdf-video-button-title {
+        position: absolute;
+        top: calc(50% - 130px);
+        width: 70%;
+        left: 15%;
+        background-color: rgba(235,227,227,.75);
+        font-size: 13px;
+        color: #fff;
+        letter-spacing: 0.08em;
+        text-align: center;
+        padding: 40px 0;
+    }
+	
+	.mkdf-video-button-play,
+	.mkdf-video-button-play-image {
+		position: relative;
+		display: inline-block;
+		vertical-align: top;
+		z-index: 1;
+	}
+	
+	.mkdf-video-button-play {
+		color: $default-heading-color;
+		font-size: 25px;
+		line-height: 1;
+		
+		span {
+			display: block;
+			line-height: inherit;
+			
+			&:before {
+				display: block;
+				line-height: inherit;
+			}
+		}
+	}
+	
+	.mkdf-video-button-play-image {
+		
+		&.mkdf-vb-has-hover-image {
+			
+			&:hover {
+				
+				img {
+					
+					&:first-child {
+						opacity: 0;
+					}
+					
+					&:nth-child(2) {
+						opacity: 1;
+					}
+				}
+			}
+		}
+		
+		img {
+			display: block;
+			margin: 0 auto;
+			@include mkdfTransition(opacity .3s ease-in-out);
+			
+			&:first-child {
+				position: relative;
+				opacity: 1;
+			}
+			
+			&:nth-child(2) {
+				position: absolute;
+				top: 0;
+				left: 50%;
+				opacity: 0;
+				@include mkdfTransform(translateX(-50%) translateZ(0));
+				
+				.rev_slider_wrapper & {
+					@include mkdfTransform(translateZ(0));
+				}
+			}
+		}
+	}
+
+    @include phone-landscape {
+        .mkdf-video-button-title {
+            display: none;
+        }
+    }
+}
+/* ==========================================================================
+   Video Button shortcode end styles
+   ========================================================================== */

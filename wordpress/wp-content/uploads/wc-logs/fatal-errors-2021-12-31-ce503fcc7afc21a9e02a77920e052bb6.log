@@ -1,0 +1,2 @@
+2021-12-31T12:46:36+00:00 CRITICAL Out of memory (allocated 60817408) (tried to allocate 28672 bytes) in /var/www/html/bryan/tokimodernjapanese.com.au/wp-content/plugins/js_composer/include/classes/core/shared-templates/importer/class-vc-wp-import.php on line 119
+

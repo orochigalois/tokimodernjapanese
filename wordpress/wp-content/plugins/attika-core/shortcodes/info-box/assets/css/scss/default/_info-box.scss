@@ -1,0 +1,37 @@
+/* ==========================================================================
+   Info Box shortcode style - begin
+   ========================================================================== */
+
+.mkdf-ib {
+	@include mkdfRelativeHolderLayout();
+	
+	.mkdf-ib-content {
+		text-align: center;
+		box-sizing: border-box;
+	}
+	
+	.mkdf-ib-title {
+		margin: 0 0 42px;
+		position: relative;
+
+		&:after {
+			content: '';
+			width: 1px;
+			height: 20px;
+			background-color: $default-border-color;
+			bottom: -32px;
+			left: 50%;
+			position: absolute;
+			@include mkdfTransform(translateX(-50%));
+		}
+	}
+
+	.mkdf-ib-email {
+		display: block;
+		margin: 10px 0;
+		@include mkdfP();
+	}
+}
+/* ==========================================================================
+   Info Box shortcode style - end
+   ========================================================================== */

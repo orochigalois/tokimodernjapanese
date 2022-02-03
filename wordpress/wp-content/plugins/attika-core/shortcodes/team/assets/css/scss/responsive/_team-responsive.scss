@@ -1,0 +1,21 @@
+@include phone-landscape {
+    .mkdf-image-with-text-holder {
+        .mkdf-iwt-text-holder {
+            padding: 0 30px;
+
+            &:after {
+                right: 14px;
+            }
+        }
+        &.mkdf-iwt-align-left {
+
+            .mkdf-iwt-text-holder {
+
+                &:after {
+                    left: 14px;
+                    right: auto;
+                }
+            }
+        }
+    }
+}
