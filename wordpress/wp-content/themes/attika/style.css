@@ -35,3 +35,6 @@ CSS changes can be made in files in the /css/ folder. This is a placeholder file
 
 }
 
+.page-template-full-width .wpb_text_column .wpb_wrapper p{
+    line-height: 45px;
+}
